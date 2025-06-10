@@ -4,3 +4,38 @@
     padding:0;
     box-sizing: border-box;
 }
+
+.debug{
+        border-style: dashed;
+        
+}
+
+
+/*--container header--*/
+.flex-container{
+    display: flex;
+    background-color: orange;
+    margin: 5px 150px;
+    justify-content: space-between;
+    border-style: dashed;
+
+}
+
+.logo{
+    border-style: dashed;
+    background-color: blueviolet;
+}
+/*-- banner e testo banner*/
+#banner{
+    border-style: dashed;
+    background-color: blue;
+    min-height: 200px;
+}
+
+.testo-banner{
+    text-align: center;
+    border-style: dashed;
+    margin: 5px 150px;
+    background-color: orange;
+    min-height: 200px;
+}
