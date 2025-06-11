@@ -6,31 +6,91 @@
 }
 
 .debug{
+    max-width: 1680px;
         
 }
 
-
 /*--container header--*/
-.header-container{
-    display: flex;
+.header-style{
+    background-color: aqua;
+    padding:1px;
+}
+
+
+.rectangle-d-flex{
+    display:flex;
     justify-content: space-between;
-    max-width: 500px;
-    margin: auto;
     background-color: orange;
+    margin:25px 100px;
+    border-style:dotted;
+    
+    
+}
+
+.rectangle{
+    background-color: orange;
+    width:100px;
+    height:50px;
+    border-style:dotted;
 
 }
 
-.logo{
-    background-color: blueviolet;
-}
+
 /*-- banner e testo banner*/
+.immagine-sfondo{
+    background-color: burlywood;
+}
+
+.banner-rectangle{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.testo-rectangle{
+    width: 100px;
+    height:250px;
+    width: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: orange;
+    
+    
+}
+
+/*-- container immagini e testo--*/
 
 
+.d-flex-1{
+   display:flex;
+   justify-content: center;
+   gap: 5px;
+   margin-bottom:25px;
+   margin-top:25px;
+   
+ 
+}
 
-/*-- container--*/
 
+.square-1{
+   background-color: blue;
+   width: 450px;
+   height: 250px;
+}
 
+.square-2{
+   background-color: pink;
+   width: 250px;
+   height: 250px;
+}
 
-
+.d-flex-2{
+   display:flex;
+   justify-content: center;
+   flex-direction:row-reverse;
+   gap: 5px;
+   margin-bottom:25px;
+   margin-top:25px;
+}
 
 /*-- end container--*/
